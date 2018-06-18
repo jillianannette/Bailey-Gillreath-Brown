@@ -93,14 +93,6 @@ a:hover {
 	padding: 7px 0;
 }
 
-@media (max-width: 500px) {
-	.gal {
-		-webkit-column-count: 1; /* Chrome, Safari, Opera */
-	    -moz-column-count: 1; /* Firefox */
-	    column-count: 1;
-	}
-}
-
 .modal-header {
   border-bottom: none;
 }
@@ -125,4 +117,18 @@ a:hover {
 .portfolio-item {
   position: relative;
   width: 50%;
+}
+
+/* Tablet and Mobile Styling */
+
+@media (max-width: 500px) {
+	.gal {
+		-webkit-column-count: 1; /* Chrome, Safari, Opera */
+	    -moz-column-count: 1; /* Firefox */
+	    column-count: 1;
+	}
+
+  .navbar-brand {
+    max-width: 65%;
+  }
 }
